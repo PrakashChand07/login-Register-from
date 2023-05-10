@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@media only screen and (max-width: 600px) {
+    .homeContainer{
+        margin: 0px 5px;
+        position: absolute;
+        bottom: 5px;
+    }
+   button{
+    width: 97vw;
+}
+
+.HomePage_Btn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  }
+/* _________________________________homePage */
+.Register_btn{
+    margin: 0px 5px;
+    position: absolute;
+    bottom: 5px;   
+}
+.details_box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 5px;
+}
+/* ---------------------------------login */
+.Login_details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    margin: 10px 0px 10px 5px;
+}
+/* .................................................profile */
+.profileDetails{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
 }
